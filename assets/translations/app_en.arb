@@ -1,0 +1,629 @@
+{
+  "appName": "Dartotsu",
+  "@appName": {},
+  "appTagline": "The NEW Best App For\nTracking Anime & Manga",
+  "@appTagline": {},
+
+  "anilist": "AniList",
+  "@anilist": {},
+  "mal": "MyAnimeList",
+  "@mal": {},
+  "kitsu": "Kitsu",
+  "@kitsu": {},
+  "simkl": "Simkl",
+  "discord": "Discord",
+  "@discord": {},
+
+  "login": "Login",
+  "@login": {},
+  "loginTo": "Login to {service}",
+  "@loginTo": {
+    "placeholders": {
+      "service": {
+        "type": "String",
+        "examples": [
+          "Anilist",
+          "MyAnimeList",
+          "Kitsu",
+          "Discord"
+        ]
+      }
+    }
+  },
+  "logout": "Logout {type}",
+  "@logout": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anilist",
+          "MyAnimeList",
+          "Kitsu",
+          "Discord"
+        ]
+      }
+    }
+  },
+  "confirmLogout": "Are you sure you want to logout?",
+  "@confirmLogout": {},
+
+  "anime": "Anime",
+  "@anime": {},
+  "manga": "Manga",
+  "@manga": {},
+  "manhwa": "Manhwa",
+  "@manhwa": {},
+  "manhua": "Manhua",
+  "@manhua": {},
+  "novel": "Novel",
+  "@novel": {},
+  "ln": "Light Novel",
+  "@ln": {},
+
+  "home": "Home",
+  "@home": {},
+  "search": "Search",
+  "@search": {},
+  "calendar": "Calendar",
+  "@calendar": {},
+  "settings": "Settings",
+  "@settings": {},
+
+  "watch": "Watch",
+  "@watch": {},
+  "read": "Read",
+  "@read": {},
+  "info": "Info",
+  "@info": {},
+  "comments": "Comments",
+  "@comments": {},
+  "addToList": "Add To List",
+  "@addToList": {},
+
+  "series": "Series",
+  "@series": {},
+  "season": "Season",
+  "@season": {},
+  "episode": "{count, plural, =1 {Episode} other {Episodes}}",
+  "@episode": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chapter": "{count, plural, =1 {Chapter} other {Chapters}}",
+  "@chapter": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "volume": "{count, plural, =1 {Volume} other {Volumes}}",
+  "@volume": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "movie": "{count, plural, =1 {Movie} other {Movies}}",
+  "@movie": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "totalEpisodes": "Episodes",
+  "@totalEpisodes": {},
+  "totalChapters": "Chapters",
+  "@totalChapters": {},
+
+  "genres": "Genres",
+  "@genres": {},
+  "scanlators": "Scanlators",
+  "@scanlators": {},
+
+  "list": "{type} List",
+  "@list": {
+    "placeholders": {
+      "type": {
+        "examples": "Anime list",
+        "type": "String"
+      }
+    }
+  },
+  "watching": "Watching",
+  "reading": "Reading",
+  "readStatus": "Read",
+  "watchStatus": "Watched",
+  "planned": "Planned {type}",
+  "@planned": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "onHold": "On Hold {type}",
+  "@onHold": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "droppedAnime": "Dropped Anime",
+  "@droppedAnime": {},
+  "droppedManga": "Dropped Manga",
+  "@droppedManga": {},
+  "noDropped": "You haven't dropped any {type} yet.",
+  "@noDropped": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "continueReading": "Continue Reading",
+  "@continueReading": {},
+  "continueWatching": "Continue Watching",
+  "@continueWatching": {},
+
+  "browse": "Browse {type}",
+  "@browse": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "trending": "Trending {type}",
+  "@trending": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "popular": "Popular {type}",
+  "@popular": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga",
+          "Manhwa"
+        ]
+      }
+    }
+  },
+  "topAiring": "Top Airing",
+  "@topAiring": {},
+  "topRated": "Top Rated {type}",
+  "@topRated": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga",
+          "Manhwa",
+          "Series"
+        ]
+      }
+    }
+  },
+  "mostFavourite": "Most Favourite {type}",
+  "@mostFavourite": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga",
+          "Manhwa"
+        ]
+      }
+    }
+  },
+  "thisSeason": "This Season",
+  "@thisSeason": {},
+  "nextSeason": "Next Season",
+  "@nextSeason": {},
+  "previousSeason": "Previous Season",
+  "@previousSeason": {},
+  "recommended": "Recommended",
+  "@recommended": {},
+  "recommendationsEmptyMessage": "Watch/Read some Anime or Manga to get Recommendations",
+  "@recommendationsEmptyMessage": {},
+  "recentUpdates": "Recent Updates",
+  "@recentUpdates": {},
+  "allCaughtUpNew": "All caught up, what's New?",
+  "@allCaughtUpNew": {},
+
+  "favorite": "Favorite {type}",
+  "@favorite": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "favorites": "Favorites",
+  "@favorites": {},
+  "noFavourites": "Looks like you don't like anything,\nTry liking a show to keep it here.",
+  "@noFavourites": {},
+  "noOnHold": "Looks like you haven't put anything on hold.",
+  "@noOnHold": {},
+
+  "manageLayout": "Manage {page} page Layout for {service}",
+  "@manageLayout": {
+    "placeholders": {
+      "service": {
+        "type": "String",
+        "examples": [
+          "Anilist",
+          "MAL"
+        ]
+      },
+      "page": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Home",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "manageLayoutDescription": "You can manage the layout for {page} page by dragging and dropping the items",
+  "@manageLayoutDescription": {
+    "placeholders": {
+      "page": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Home",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "gridView": "Grid View",
+  "@gridView": {},
+  "listView": "List View",
+  "@listView": {},
+  "compactView": "Compact View",
+  "@compactView": {},
+  "layout": "Layout",
+  "@layout": {},
+
+  "sort": "Sort",
+  "@sort": {},
+  "utd": "Up To Down",
+  "@utd": {},
+  "dtu": "Down To Up",
+  "@dtu": {},
+  "direction": "Direction",
+
+  "episodeWatched": "Episode Watched",
+  "@episodeWatched": {},
+  "chapterRead": "Chapter Read",
+  "@chapterRead": {},
+  "outOf": "out of",
+  "totalOf": "Total of",
+  "selected": "Selected",
+  "found": "Found",
+
+  "extension": "{count, plural, =1 {Extension} other {Extensions}}",
+  "@extension": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "available": "Available {type}",
+  "@available": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Anime",
+          "Manga"
+        ]
+      }
+    }
+  },
+  "installed": "Installed {type}",
+  "@installed": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "examples": [
+          "Extensions"
+        ]
+      }
+    }
+  },
+  "extensionsDescription": "Install and manage extensions for added functionality",
+  "@extensionsDescription": {},
+  "addAnimeRepo": "Add Anime Repo",
+  "addAnimeRepoDesc": "Add Anime Repo from various sources",
+  "addMangaRepo": "Add Manga Repo",
+  "addMangaRepoDesc": "Add Manga Repo from various sources",
+  "addNovelRepo": "Add Novel Repo",
+  "addNovelRepoDesc": "Add Novel Repo from various sources",
+  "loadExtensionsIcon": "Load Extensions icon",
+  "loadExtensionsIconDesc": "Disable if extensions page lags",
+  "autoUpdate": "Auto Update",
+  "autoUpdateDesc": "Auto Update Extensions",
+  "installSourceToStart": "Install a source from extension page to start",
+
+  "author": "Author",
+  "@author": {},
+  "averageDuration": "Average Duration",
+  "@averageDuration": {},
+  "characters": "Characters",
+  "@characters": {},
+  "description": "Synopsis",
+  "@description": {},
+  "synopsis": "Synopsis",
+  "@synopsis": {},
+  "endDate": "End Date",
+  "@endDate": {},
+  "format": "Format",
+  "@format": {},
+  "meanScore": "Mean Score",
+  "@meanScore": {},
+  "name": "Name",
+  "@name": {},
+  "nameRomaji": "Name (Romaji)",
+  "@nameRomaji": {},
+  "popularity": "Popularity",
+  "@popularity": {},
+  "relations": "Relations",
+  "@relations": {},
+  "prequel": "PREQUEL",
+  "@prequel": {},
+  "sequel": "SEQUEL",
+  "@sequel": {},
+  "source": "Source",
+  "@source": {},
+  "staff": "Staff",
+  "@staff": {},
+  "startDate": "Start Date",
+  "@startDate": {},
+  "status": "Status",
+  "@status": {},
+  "studio": "Studio",
+  "@studio": {},
+  "synonyms": "Synonyms",
+  "@synonyms": {},
+  "tags": "Tags",
+  "@tags": {},
+  "total": "Total",
+  "@total": {},
+  "collapseText": "show less",
+  "@collapseText": {},
+  "expandText": "show more",
+  "@expandText": {},
+  "comingSoon": "Coming SOON",
+  "@comingSoon": {},
+  "wrongTitle": "Wrong Title?",
+  "youTube": "Play on YouTube?",
+  "mediaNotFound": "Media not found",
+  "noChapterFound": "No chapter found",
+
+  "activity": "{count, plural, =1 {Activity} other {Activities}}",
+  "@activity": {
+    "description": "count > 1 will use plural form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "language": "Language",
+  "@language": {},
+  "account": "Account",
+  "@account": {},
+  "accountDescription": "Manage your AniList, MAL, and Discord accounts effortlessly",
+  "@accountDescription": {},
+  "common": "Common",
+  "@common": {},
+  "commonDescription": "Access general settings for seamless app usage",
+  "@commonDescription": {},
+  "animeDescription": "Personalize and manage your anime preferences",
+  "@animeDescription": {},
+  "mangaDescription": "Organize and tailor your manga experience",
+  "@mangaDescription": {},
+  "about": "About",
+  "@about": {},
+  "aboutDescription": "Learn more about the app and its creators",
+  "@aboutDescription": {},
+  "notifications": "Notifications",
+  "@notifications": {},
+  "notificationsDescription": "Configure how and when you receive notifications",
+  "@notificationsDescription": {},
+
+  "offlineMode": "Offline Mode",
+  "@offlineMode": {},
+  "offlineModeDescription": "Use the app without an internet connection",
+  "@offlineModeDescription": {},
+  "incognitoMode": "Incognito Mode",
+  "@incognitoMode": {},
+  "incognitoModeDescription": "Browse without saving your activity",
+  "@incognitoModeDescription": {},
+  "hidePrivate": "Hide Private",
+  "@hidePrivate": {},
+  "hidePrivateDescription": "Hide private series from Home page.",
+  "@hidePrivateDescription": {},
+  "hiddenMedia": "Hidden Media",
+  "@hiddenMedia": {},
+  "noHiddenMediaFound": "No hidden media found",
+  "@noHiddenMediaFound": {},
+
+  "playerSettingsTitle": "Player Settings",
+  "@playerSettingsTitle": {},
+  "playerSettingsDesc": "Change player settings",
+  "speed": "Speed",
+  "@speed": {},
+  "speedDescription": "Default speed for player",
+  "@speedDescription": {},
+  "cursedSpeed": "Cursed Speed",
+  "@cursedSpeed": {},
+  "cursedSpeedDescription": "For people who are too busy with life",
+  "@cursedSpeedDescription": {},
+  "resizeMode": "Resize mode",
+  "@resizeMode": {},
+  "resizeModeDescription": "Default resize mode for player",
+  "@resizeModeDescription": {},
+  "skipButton": "Skip Button",
+  "@skipButton": {},
+  "skipButtonDescription": "Skip button duration",
+  "@skipButtonDescription": {},
+  "thumbLessSeekBar": "ThumbLess SeekBar",
+  "thumbLessSeekBarDesc": "Remove thumb from the seek bar",
+
+  "subtitles": "Subtitles",
+  "@subtitles": {},
+  "showSubtitles": "Show Subtitles",
+  "@showSubtitles": {},
+  "showSubtitlesDescription": "Show subtitles by default",
+  "@showSubtitlesDescription": {},
+  "subtitlePreview": "Subtitle Preview",
+  "@subtitlePreview": {},
+  "fontColor": "Font Color",
+  "@fontColor": {},
+  "fontColorDescription": "Subtitle font color",
+  "@fontColorDescription": {},
+  "fontFamily": "Font Family",
+  "@fontFamily": {},
+  "fontFamilyDescription": "Subtitle font family",
+  "@fontFamilyDescription": {},
+  "fontSize": "Font Size",
+  "@fontSize": {},
+  "fontSizeDescription": "Subtitle font size",
+  "@fontSizeDescription": {},
+  "fontWeight": "Font Weight",
+  "@fontWeight": {},
+  "fontWeightDescription": "Subtitle font weight",
+  "@fontWeightDescription": {},
+  "backgroundColor": "Background Color",
+  "@backgroundColor": {},
+  "backgroundColorDescription": "Subtitle background color",
+  "@backgroundColorDescription": {},
+  "outlineColor": "Outline Color",
+  "@outlineColor": {},
+  "outlineColorDescription": "Subtitle outline color",
+  "@outlineColorDescription": {},
+  "bottomPadding": "Bottom Padding",
+  "@bottomPadding": {},
+  "bottomPaddingDescription": "Subtitle bottom padding",
+  "@bottomPaddingDescription": {},
+
+  "readerSettings": "Reader Settings",
+  "readerSettingsDesc": "Change reader settings",
+  "spacedPages": "Spaced Pages",
+  "spacedPagesDesc": "Add space between pages",
+  "hideScrollbar": "Hide Scrollbar",
+  "hideScrollbarDesc": "Hide scrollbar while reading",
+  "hidePageNumber": "Hide Page Number",
+  "hidePageNumberDesc": "Hide page number while reading",
+
+  "theme": "Theme",
+  "@theme": {},
+  "themeDescription": "Customize the appearance and vibe of your app",
+  "@themeDescription": {},
+  "darkMode": "Dark Mode",
+  "@darkMode": {},
+  "enableDarkMode": "Enable Dark Mode",
+  "@enableDarkMode": {},
+  "materialYou": "Material You",
+  "@materialYou": {},
+  "materialYouDescription": "Use the same color as your wallpaper",
+  "@materialYouDescription": {},
+  "customTheme": "Custom theme",
+  "@customTheme": {},
+  "customThemeDescription": "Use your own color for the theme",
+  "@customThemeDescription": {},
+  "oledThemeVariant": "OLED theme Variant",
+  "@oledThemeVariant": {},
+  "oledThemeVariantDescription": "Enable OLED Mode",
+  "@oledThemeVariantDescription": {},
+
+  "colorPicker": "Color Picker",
+  "@colorPicker": {},
+  "pickColor": "Pick a color",
+  "@pickColor": {},
+  "colorPickerDescription": "Choose a color",
+  "@colorPickerDescription": {},
+  "colorPickerDefault": "Default",
+  "colorPickerCustom": "Custom",
+
+  "customPath": "Custom Path",
+  "customPathDescription": "Set a custom path to save files\nLong press to remove",
+  "selectDirectory": "Select a directory",
+  "selectMediaService": "Select Media Service",
+  "logFile": "Log File",
+  "logFileDescription": "Share the log file",
+  "restoreSettings": "Restore Settings",
+  "@restoreSettings": {},
+  "differentCacheManager": "Different Cache Manager",
+  "differentCacheManagerDesc": "Use different Image cache manager",
+
+  "webView": "Web View",
+
+  "developersHelpers": "Developers/Helpers",
+  "developersHelpersDesc": "Dartotsu's unpaid labours",
+  "supportMaintainer": "Want to support Dartotsu's Maintainer?\nConsider Donating",
+  "@supportMaintainer": {},
+  "donationGoal": "No donation goal atm",
+  "@donationGoal": {},
+
+  "options": "Options",
+  "@options": {},
+  "ok": "OK",
+  "@ok": {},
+  "cancel": "Cancel",
+  "@cancel": {},
+  "yes": "Yes",
+  "@yes": {},
+  "no": "No",
+  "@no": {}
+}
