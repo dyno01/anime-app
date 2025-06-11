@@ -4,6 +4,7 @@ import 'package:dartotsu/Functions/Function.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
+import 'package:dartotsu/Preferences/PrefManager.dart';
 
 import '../../Animation/ScaleAnimation.dart';
 import '../../Api/Sources/Model/Source.dart';
@@ -205,8 +206,6 @@ class EpisodeAdaptorState extends State<EpisodeAdaptor> {
     );
   }
 }
-
-import 'package:dartotsu/Preferences/PrefManager.dart';
 
 void onEpisodeClick(
   BuildContext context,

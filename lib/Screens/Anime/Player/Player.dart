@@ -11,6 +11,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:screen_brightness/screen_brightness.dart';
 import 'package:volume_controller/volume_controller.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 
 import '../../../../../../Adaptor/Episode/EpisodeAdaptor.dart';
 import '../../../../../../Api/Sources/Eval/dart/model/video.dart' as v;
@@ -85,8 +86,6 @@ class MediaPlayerState extends State<MediaPlayer>
     if (isMobile) {
       // Ensure wakelock is always enabled when player is active
       try {
-        // ignore: import_of_legacy_library_into_null_safe
-        import 'package:wakelock_plus/wakelock_plus.dart';
         WakelockPlus.enable();
       } catch (_) {}
       _setLandscapeMode(true);
